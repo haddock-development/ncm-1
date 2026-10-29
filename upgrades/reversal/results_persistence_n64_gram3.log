@@ -1,0 +1,81 @@
+VQVAE, Total parameter count: 60.63M
+VQVAE, Non embedding parameter count: 41.30M
+NCP Transformer, Total parameter count: 88.02M
+NCP Transformer, Non embedding parameter count: 87.71M
+doc 0: final_claims=24
+doc 1: final_claims=17
+doc 2: final_claims=15
+doc 3: final_claims=19
+doc 4: final_claims=21
+doc 5: final_claims=20
+doc 6: final_claims=16
+doc 7: final_claims=22
+doc 8: final_claims=17
+doc 9: final_claims=21
+doc 10: final_claims=23
+doc 11: final_claims=22
+doc 12: final_claims=22
+doc 13: final_claims=27
+doc 14: final_claims=26
+doc 15: final_claims=15
+doc 16: final_claims=24
+doc 17: final_claims=16
+doc 18: final_claims=20
+doc 19: final_claims=21
+doc 20: final_claims=16
+doc 21: final_claims=18
+doc 22: final_claims=16
+doc 23: final_claims=22
+doc 24: final_claims=8
+doc 25: final_claims=20
+doc 26: final_claims=20
+doc 27: final_claims=9
+doc 28: final_claims=21
+doc 29: final_claims=15
+doc 30: final_claims=16
+doc 31: final_claims=11
+doc 32: final_claims=17
+doc 33: final_claims=21
+doc 34: final_claims=24
+doc 35: final_claims=20
+doc 36: final_claims=22
+doc 37: final_claims=16
+doc 38: final_claims=19
+doc 39: final_claims=19
+doc 40: final_claims=15
+doc 41: final_claims=31
+doc 42: final_claims=17
+doc 43: final_claims=27
+doc 44: final_claims=26
+doc 45: final_claims=10
+doc 46: final_claims=18
+doc 47: final_claims=17
+doc 48: final_claims=18
+doc 49: final_claims=18
+doc 50: final_claims=18
+doc 51: final_claims=25
+doc 52: final_claims=19
+doc 53: final_claims=7
+doc 54: final_claims=20
+doc 55: final_claims=20
+doc 56: final_claims=21
+doc 57: final_claims=19
+doc 58: final_claims=23
+doc 59: final_claims=23
+doc 60: final_claims=20
+doc 61: final_claims=18
+doc 62: final_claims=18
+doc 63: final_claims=20
+
+SUMMARY n=64 gram=3 mean_final_claims=19.2
+lvl  born  lost  lost_ratio
+  0      5     5    100.00%
+  1     40    40    100.00%
+  2    130   129     99.23%
+  3    252   250     99.21%
+  4    406   399     98.28%
+  5    560   529     94.46%
+  6    687   625     90.98%
+  7    746   616     82.57%
+  8    993     0      0.00%
+TOTAL born=3819 lost=2593 overall_lost_ratio=67.90%
