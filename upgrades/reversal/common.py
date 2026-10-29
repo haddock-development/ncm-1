@@ -1,3 +1,4 @@
+import os as _os; _os.environ.setdefault("HF_HOME", _os.path.expanduser("~/ncm-upgrades/hf-home"))
 import os, sys, pickle, torch
 from omegaconf import OmegaConf
 
