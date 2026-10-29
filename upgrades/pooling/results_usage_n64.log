@@ -1,0 +1,15 @@
+VQVAE, Total parameter count: 60.63M
+VQVAE, Non embedding parameter count: 41.30M
+NCP Transformer, Total parameter count: 88.02M
+NCP Transformer, Non embedding parameter count: 87.71M
+docs=64 total_slots=200 levels=[4, 6, 10, 14, 20, 26, 32, 40, 48]
+lvl  slots  unique  active/4096   top10%  entropy
+  0      4     159        159/4096    1.000     6.80
+  1      6     186        186/4096    1.000     6.07
+  2     10     283        283/4096    1.000     5.66
+  3     14     349        349/4096    1.000     5.82
+  4     20     468        468/4096    0.954     6.22
+  5     26     517        517/4096    0.935     6.32
+  6     32     596        596/4096    0.909     6.39
+  7     40     584        584/4096    0.932     6.54
+  8     48     808        808/4096    0.870     6.61
