@@ -1,0 +1,11 @@
+VQVAE, Total parameter count: 60.63M
+VQVAE, Non embedding parameter count: 41.30M
+NCP Transformer, Total parameter count: 88.02M
+NCP Transformer, Non embedding parameter count: 87.71M
+TARGET : The number of beds made available for homeless people living in accommodation in Wales has risen in last year, a Welsh housing homelessness charity has said.
+SPLICE-A (lvl 0 , donor 1 ): A number has been made in for homeless people living in accommodation in Wales has risen in in year, a Welsh housing homelessness charity has said
+SPLICE-B (lvl 1 , donor 2 ): The number of beds made available for homeless people living in and in Wales has risen in last year, a Welsh housing homelessness charity has said.
+JOINT  : A number has been made in for with people living in and in Wales has risen in in year, a Welsh housing homelessness charity has said
+
+single_A_changed=149 single_B_changed=85 joint_changed=147 effect_overlap=93
+composition: additiv im Rahmen der Messunsicherheit
