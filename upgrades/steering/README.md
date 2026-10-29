@@ -14,3 +14,11 @@ Donoren) einzeln und gemeinsam an. E04 warnte: Doppel-Edits interferieren in
 ~45%. Der Test klassifiziert, ob unser Slot-Splice additiv komponiert.
 
 Run: cd upgrades/steering && python3 composition.py --level-a 0 --level-b 2 --pair 0,1,2
+
+## Smoke-Ergebnis (N=3 Docs, Level 0+2)
+
+Splice-A (Level 0, 4 Slots) veraendert 149 Chars; Splice-B (Level 2) war
+Inert (0 Chars - Donor-Codes dort identisch oder wirkungslos im Decoding).
+Joint folgt nahezu exakt Splice-A -> im Smoke keine Interferenz sichtbar,
+aber auch keine zweite wirksame Komponente. Fuer echten Interferenz-Test:
+zwei Levels waehlen, die beide einzeln wirken (z.B. 0 und 1).
