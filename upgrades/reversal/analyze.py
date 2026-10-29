@@ -38,9 +38,11 @@ for i, doc in enumerate(items):
     for pos in range(len(final)):
         reached = False
         for k in range(L):
-            if k < len(decs[k]) and decs[k][pos] == final[pos]:
+            if pos >= len(decs[k]):
+                continue  # coarser level ended its summary earlier here
+            if decs[k][pos] == final[pos]:
                 reached = True
-            elif reached and (k >= len(decs[k]) or decs[k][pos] != final[pos]):
+            elif reached:
                 rev += 1
                 break
     results.append({"idx": i, "n_levels": L, "final_len": len(final),
